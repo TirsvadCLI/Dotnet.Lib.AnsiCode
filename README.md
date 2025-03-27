@@ -30,6 +30,16 @@
 
 Ansi codes helper for console applications.
 
+## How to get started
+
+Nuget package: https://www.nuget.org/packages/TirsvadCLI.AnsiCode/
+
+### Installation
+
+```sh
+dotnet add package TirsvadCLI.AnsiCode
+```
+
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/TirsvadCLI/CSharp.Tool.AnsiCode?style=for-the-badge
 [contributors-url]: https://github.com/TirsvadCLI/CSharp.Tool.AnsiCode/graphs/contributors
