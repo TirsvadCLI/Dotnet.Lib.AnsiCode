@@ -1,5 +1,9 @@
 ﻿namespace TirsvadCLI
 {
+
+    /// <summary>
+    /// ANSI escape codes for terminal colors and formatting
+    /// </summary>
     public class AnsiCode
     {
         public readonly static string BLACK = "\u001b[30m"; ///> Black text
