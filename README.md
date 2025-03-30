@@ -15,7 +15,11 @@
     <p align="center">
     Ansi code for console applications
     <br />
+    <br />
     <!-- PROJECT SCREENSHOTS -->
+    <a href="https://github.com/TirsvadCLI/Dotnet.Tool.AnsiCode/blob/master/images/Screenshot.png">
+        <img src="images/Screenshot.png" alt="AnsoCode example" height="120">
+    </a>
     <br />
     <a href="https://github.com/TirsvadCLI/Dotnet.Tool.AnsiCode"><strong>Explore the docs »</strong></a>
     <br />
