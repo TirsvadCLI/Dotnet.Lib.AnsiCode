@@ -14,7 +14,6 @@
     <h3 align="center">Ansi Code</h3>
     <p align="center">
     Ansi code for console applications
-    <br />****
     <br />
     <!-- PROJECT SCREENSHOTS -->
     <br />
@@ -46,7 +45,6 @@ Ansi codes helper for console applications.
 ## About the Project
 
 This project is a simple helper class for using Ansi codes in console applications.
-
 
 ## How to get started
 
@@ -80,7 +78,6 @@ Distributed under the GPL-3.0 [License][license-url].
 ## Contact
 
 Jens Tirsvad Nielsen - [LinkedIn][linkedin-url]
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/TirsvadCLI/Dotnet.Tool.AnsiCode?style=for-the-badge
