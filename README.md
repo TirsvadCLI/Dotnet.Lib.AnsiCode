@@ -1,3 +1,4 @@
+[![NuGet Downloads][nuget-shield]][nuget-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -30,10 +31,6 @@
 
 Ansi codes helper for console applications.
 
-## About the Project
-
-This project is a simple helper class for using Ansi codes in console applications.
-
 ## Table of Contents
 
 - [Ansi Code](#ansi-code)
@@ -45,6 +42,11 @@ This project is a simple helper class for using Ansi codes in console applicatio
   - [Contributing](#contributing)
   - [License](#license)
   - [Contact](#contact)
+
+## About the Project
+
+This project is a simple helper class for using Ansi codes in console applications.
+
 
 ## How to get started
 
@@ -93,4 +95,6 @@ Jens Tirsvad Nielsen - [LinkedIn][linkedin-url]
 [license-url]: https://github.com/TirsvadCLI/Dotnet.Tool.AnsiCode/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jens-tirsvad-nielsen-13b795b9/
+[nuget-shield]: https://img.shields.io/nuget/dt/TirsvadCLI.AnsiCode?style=for-the-badge
+[nuget-url]: https://www.nuget.org/packages/TirsvadCLI.AnsiCode/
 
