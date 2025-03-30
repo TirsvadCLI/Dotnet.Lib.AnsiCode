@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\AnsiCode\TirsvadCLI.AnsiCode.csproj" />
+    <ProjectReference Include="..\AnsiCode\TirsvadCLI.AnsiCode.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,5 @@
 ﻿namespace TirsvadCLI.AnsiCode;
 
-
 /// <summary>
 /// ANSI escape codes for terminal colors and formatting
 /// </summary>
@@ -61,7 +60,6 @@ public class AnsiCode
     public readonly static string CURSOR_POS = "\u001b[{0};{1}H"; ///> Move cursor to position
 
     public readonly static string ANSI_RESET = "\u001b[0m"; ///> Reset ANSI codes
-
 
     /// <summary>
     /// Colorize a string with the given foreground and background colors
