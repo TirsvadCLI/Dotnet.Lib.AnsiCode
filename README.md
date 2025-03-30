@@ -32,15 +32,13 @@ Ansi codes helper for console applications.
 
 ## Table of Contents
 
-- [Ansi Code](#ansi-code)
-  - [Table of Contents](#table-of-contents)
-  - [About the Project](#about-the-project)
-  - [How to get started](#how-to-get-started)
+- [About the Project](#about-the-project)
+- [How to get started](#how-to-get-started)
     - [Installation](#installation)
-  - [Example](#example)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Contact](#contact)
+- [Example](#example)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## About the Project
 
