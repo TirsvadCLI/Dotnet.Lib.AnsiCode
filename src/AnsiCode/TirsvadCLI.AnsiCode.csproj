@@ -1,11 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>Library</OutputType>
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <VersionPrefix>0.1.1</VersionPrefix>
+    </PropertyGroup>
+    <PropertyGroup>
         <PackageId>$(AssemblyName)</PackageId>
         <Title>Ansi Code</Title>
         <Authors>Jens Tirsvad Nielsen</Authors>
@@ -19,13 +20,16 @@
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <Description>Ansi Code Library for console</Description>
     </PropertyGroup>
-
+    <PropertyGroup>
+        <IncludeSymbols>True</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
     <ItemGroup>
         <None Include="..\..\LICENSE">
             <Pack>True</Pack>
             <PackagePath>\</PackagePath>
         </None>
-        <None Include="..\..\image\logo\64x64\logo.png">
+        <None Include="..\..\image\logo\128x128\logo.png">
             <Pack>True</Pack>
             <PackagePath>\</PackagePath>
         </None>
@@ -34,5 +38,4 @@
             <PackagePath>\</PackagePath>
         </None>
     </ItemGroup>
-
 </Project>

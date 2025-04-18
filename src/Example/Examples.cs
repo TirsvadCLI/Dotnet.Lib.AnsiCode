@@ -1,8 +1,8 @@
-﻿using TirsvadCLI.AnsiCode;
+using TirsvadCLI.AnsiCode;
 
 namespace Example;
 
-internal class Program
+internal class Examples
 {
     static void Main(string[] args)
     {
