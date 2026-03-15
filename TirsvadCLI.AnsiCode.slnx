@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/docs/" />
+  <Folder Name="/docs/doxygen/">
+    <File Path="docs/doxygen/html/index.html" />
+  </Folder>
+  <Folder Name="/examples/">
+    <Project Path="examples/Example.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AnsiCode.Tests/AnsiCode.Tests.csproj" />
+  </Folder>
+  <Project Path="src/AnsiCode/TirsvadCLI.AnsiCode.csproj" />
+</Solution>

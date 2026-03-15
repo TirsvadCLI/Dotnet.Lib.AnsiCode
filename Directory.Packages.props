@@ -1,0 +1,26 @@
+<Project>
+  <ItemGroup>
+    <PackageVersion Include="Blake3" Version="2.2.1" />
+    <PackageVersion Include="coverlet.collector" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.3.0" />
+    <PackageVersion Include="Moq" Version="4.20.72" />
+    <PackageVersion Include="ReportGenerator" Version="5.5.0" />
+    <PackageVersion Include="Selenium.WebDriver" Version="4.41.0" />
+    <PackageVersion Include="TirsvadCLI.MenuPaginator" Version="0.3.0" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.5" />
+    <PackageVersion Include="xunit.v3" Version="3.2.2" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)' != 'Debug'">
+    <PackageVersion Include="TirsvadCLI.SitemapGenerator.Domain" Version="0.0.0" />
+    <PackageVersion Include="TirsvadCLI.SitemapGenerator.Core" Version="0.0.0" />
+    <PackageVersion Include="TirsvadCLI.SitemapGenerator.Infrastructure" Version="0.0.0" />
+  </ItemGroup>
+</Project>

@@ -23,7 +23,8 @@ Ansi codes library for console applications.
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-The AnsiCode library is a .NET library that provides a simple and efficient way to work with ANSI escape codes in console applications. It allows developers to easily format text, change colors, and create visually appealing command-line interfaces.
+The AnsiCode library is a .NET library that provides a simple and efficient way to work with ANSI escape codes in console applications.
+It allows developers to easily format text, change colors, and create visually appealing command-line interfaces.
 
 ## Features
 - **Text Formatting**: Apply various text formatting options such as bold, underline, and italics.
@@ -33,26 +34,26 @@ The AnsiCode library is a .NET library that provides a simple and efficient way 
 To get started with the AnsiCode library, follow the instructions below to install it in your .NET project.
 
 ### Prerequisites
-- .NET 9.0 or later
+- .NET 10.0 or later
 
 ### Installation
 
 #### Install via NuGet Package Manager Console
-You can install the Form library using the NuGet Package Manager Console. Open the console and run the following command:
+You can install the AnsiCode library using the NuGet Package Manager Console. Open the console and run the following command:
 ```bash
-Install-Package TirsvadCLI.Form
+Install-Package TirsvadCLI.AnsiCode
 ```
 
 #### Install via Visual Studio NuGet Package Manager
 1. Open your project in Visual Studio.
 2. Right-click on your project in the Solution Explorer and select "Manage NuGet Packages".
-3. Search for "TirsvadCLI.Form" in the NuGet Package Manager.
+3. Search for "TirsvadCLI.AnsiCode" in the NuGet Package Manager.
 4. Click "Install" to add the library to your project. 
 
 #### Install via .NET CLI
-You can also install the Form library using the .NET CLI. Open a terminal and run the following command:
+You can also install the AnsiCode library using the .NET CLI. Open a terminal and run the following command:
 ```bash
-dotnet add package TirsvadCLI.Form
+dotnet add package TirsvadCLI.AnsiCode
 ```
 
 #### Clone the repo
