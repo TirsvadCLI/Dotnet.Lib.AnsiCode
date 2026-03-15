@@ -1,4 +1,4 @@
-// Copyright (c) 2026 TirsvadWeb. All rights reserved. 
+// Copyright (c) 2026 Tirsvad and its affiliates. All rights reserved. 
 //  No warranty, explicit or implicit, provided.
 
 using TirsvadCLI.AnsiCode;
