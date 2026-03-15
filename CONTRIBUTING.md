@@ -1,4 +1,4 @@
-﻿# Contributing
+# Contributing
 Thank you for your interest in contributing! Your help is greatly appreciated.  
 This document outlines the process for contributing to the project.
 
@@ -18,7 +18,7 @@ See the [Code Quality Criteria] for more details.
 ## How Can I Contribute?
 
 ### Reporting Bugs
-- Open an issue on [GitHub Issues](https://github.com/TirsvadCLI/Dotnet.SitemapGenerator/issues).
+- Open an issue on [GitHub Issues](https://github.com/TirsvadCLI/Dotnet.Lib.AnsiCode/issues).
 - Use a clear and descriptive title.
 - Include steps to reproduce, expected and actual behavior, and environment details.
 
@@ -68,5 +68,5 @@ Open an issue or contact the maintainer via [LinkedIn](https://www.linkedin.com/
 Thank you for helping making this project better!
 
 <!-- LINK REFERENCES -->
-[Code Quality Criteria]: https://dev.tirsvad.dk/qa/code "Code Quality Criteria"
-[Quality Criteria]: https://dev.tirsvad.dk/qa/artifacts "Quality Criteria"
+[Code Quality Criteria]: https://dev.tirsvad.dk/ "Code Quality Criteria"
+[Quality Criteria]: https://dev.tirsvad.dk/ "Quality Criteria"
