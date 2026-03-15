@@ -128,4 +128,4 @@ Jens Tirsvad Nielsen - [LinkedIn][linkedin-url]
 [screenshot1]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Lib.AnsiCode/main/image/small/Screenshot1.png
 [screenshot1-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Lib.AnsiCode/main/image/Screenshot1.png
 
-[example-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Lib.AnsiCode/master/src/Example/Examples.cs
+[example-url]: https://raw.githubusercontent.com/TirsvadCLI/Dotnet.Lib.AnsiCode/master/examples/Examples.cs

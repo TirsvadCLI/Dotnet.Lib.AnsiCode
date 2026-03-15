@@ -41,7 +41,8 @@ dotnet_search_reference_assemblies = true
 # Organize usings
 dotnet_separate_import_directive_groups = true
 dotnet_sort_system_directives_first = true
-file_header_template = Copyright (c) 2026 TirsvadWeb. All rights reserved. \n No warranty, explicit or implicit, provided.
+file_header_template = Copyright (c) 2026 Tirsvad and its affiliates. All rights reserved. \n No warranty, explicit or implicit, provided.
+
 
 # this. and Me. preferences
 dotnet_style_qualification_for_event = false:suggestion
