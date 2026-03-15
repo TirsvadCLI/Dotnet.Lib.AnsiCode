@@ -1,39 +1,40 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <OutputType>Library</OutputType>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-    </PropertyGroup>
-    <PropertyGroup>
-        <PackageId>$(AssemblyName)</PackageId>
-        <Title>Ansi Code</Title>
-        <Authors>Jens Tirsvad Nielsen</Authors>
-        <Company>TirsvadCLI</Company>
-        <PackageIcon>logo.png</PackageIcon>
-        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-        <PackageProjectUrl>https://github.com/TirsvadCLI/Dotnet.Lib.AnsiCode</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/TirsvadCLI/Dotnet.Lib.AnsiCode</RepositoryUrl>
-        <PackageTags>Frame;Console;Library</PackageTags>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageLicenseFile>LICENSE</PackageLicenseFile>
-        <Description>Ansi Code Library for console</Description>
-    </PropertyGroup>
-    <PropertyGroup>
-        <IncludeSymbols>True</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    </PropertyGroup>
-    <ItemGroup>
-        <None Include="..\..\LICENSE">
-            <Pack>True</Pack>
-            <PackagePath>\</PackagePath>
-        </None>
-        <None Include="..\..\image\logo\128x128\logo.png">
-            <Pack>True</Pack>
-            <PackagePath>\</PackagePath>
-        </None>
-        <None Include="..\..\README.md">
-            <Pack>True</Pack>
-            <PackagePath>\</PackagePath>
-        </None>
-    </ItemGroup>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <VersionPrefix>0.1.2</VersionPrefix>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Title>Ansi Code</Title>
+    <Authors>Jens Tirsvad Nielsen</Authors>
+    <Company>TirsvadCLI</Company>
+    <PackageIcon>logo.png</PackageIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/TirsvadCLI/Dotnet.Lib.AnsiCode</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TirsvadCLI/Dotnet.Lib.AnsiCode</RepositoryUrl>
+    <PackageTags>Frame;Console;Library</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>Ansi Code Library for console</Description>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\image\logo\128x128\logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 </Project>

@@ -1,10 +1,16 @@
 <Solution>
-  <Folder Name="/docs/" />
-  <Folder Name="/docs/doxygen/">
-    <File Path="docs/doxygen/html/index.html" />
-  </Folder>
   <Folder Name="/examples/">
     <Project Path="examples/Example.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="IncrementBuildAndPush.ps1" />
+  </Folder>
+  <Folder Name="/Solution Items/coverage/">
+    <File Path="TestResults/CoverageReport/Latest/Html/index.html" />
+  </Folder>
+  <Folder Name="/Solution Items/docs/" />
+  <Folder Name="/Solution Items/docs/doxygen/">
+    <File Path="docs/doxygen/html/index.html" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/AnsiCode.Tests/AnsiCode.Tests.csproj" />

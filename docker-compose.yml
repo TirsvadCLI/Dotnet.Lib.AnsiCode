@@ -1,0 +1,22 @@
+services:
+  build:
+    image: tirsvadcli-ansi-code-build
+    build:
+      context: .
+      target: build
+    restart: "no"
+
+  test:
+    image: tirsvadcli-ansi-code-test
+    build:
+      context: .
+      target: test
+    depends_on:
+      build:
+        condition: service_completed_successfully
+    working_dir: /src
+    volumes:
+      - ./TestResults:/artifacts/TestResults
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Release
+    restart: "no"
